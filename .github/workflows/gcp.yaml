@@ -1,5 +1,5 @@
 ---
-name: Build and Push Python Image to Google Cloud Platform
+name: My First Pipeline example Build and Push Python Image to Google Cloud Platform
 on:
   push:
     branches: [ main ]
