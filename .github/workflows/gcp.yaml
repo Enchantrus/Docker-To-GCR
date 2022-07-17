@@ -31,8 +31,8 @@ jobs:
       env:
         GIT_TAG: version
       run: |-
-        docker tag $IMAGE_NAME:latest $PROJECT_ID/$IMAGE_NAME:latest
-        docker tag $IMAGE_NAME:latest $PROJECT_ID/$IMAGE_NAME:$GIT_TAG
+        docker tag $IMAGE_NAME:latest gcr.io/$PROJECT_ID/$IMAGE_NAME:latest
+        docker tag $IMAGE_NAME:latest gcr.io/$PROJECT_ID/$IMAGE_NAME:$GIT_TAG
         docker push gcr.io/$PROJECT_ID/$IMAGE_NAME:latest
         docker push gcr.io/$PROJECT_ID/$IMAGE_NAME:$GIT_TAG
 
