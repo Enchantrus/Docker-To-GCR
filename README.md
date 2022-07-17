@@ -25,5 +25,5 @@ docker tag sanweb:version1 asia.gcr.io/ace-gcp-labs/santosh-site:version1
 Create a service account add compute storage admin permission
 Generate a .json key and place it under /Users/sa302227/.docker 
 Run the below command 
-cloud auth configure-docker
+gcloud auth configure-docker
 docker push asia.gcr.io/ace-gcp-labs/santosh-site:version1
