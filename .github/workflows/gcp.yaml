@@ -8,7 +8,7 @@ jobs:
     name: Build my Python app and Push to Google Cloud Registry
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: Docker-to-GCR
+      IMAGE_NAME: docker-to-gcr
       PROJECT_ID: ace-gcp-labs
       RUN_REGION: us-central1
       SERVICE_NAME: images
