@@ -42,7 +42,7 @@ jobs:
         gcloud run deploy "$SERVICE_NAME" \
           --quiet \
           --region "$RUN_REGION" \
-          --image "gcr.io/$PROJECT_ID/$SERVICE_NAME:$GIT_TAG" \
+          --image "gcr.io/$PROJECT_ID/$IMAGE_NAME:$GIT_TAG" \
           --platform "managed" \
           --allow-unauthenticated
 
