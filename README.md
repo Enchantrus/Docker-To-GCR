@@ -1,4 +1,4 @@
-# Docker-To-GCR
+# Python app CI/CD flow using Google cloud features
 
 This project will explain you how to create a simnple python web app and automate the build and deployment using Google cloud products and GitHub Actions.
 Step 1: Create a python web application flask framework.
