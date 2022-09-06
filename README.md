@@ -8,4 +8,4 @@ Step 3: Design GitHub Workflow jobs to automate the build and deployment.
 Products that you will use and intergrate
 GitHub,Google Cloud Run,Docker,Google cloud registery,Google Cloud Build.
 
-![This is an image](https://www.pcmag.com/reviews/google-cloud-platform)
+![This is an image](https://i.pcmag.com/imagery/reviews/02yVL9f8Jw1atwoG6sgFZDH-7..v1569482492.jpg)
