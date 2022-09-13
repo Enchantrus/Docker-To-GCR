@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: docker-to-gcr
-      PROJECT_ID: ace-gcp-labs
+      PROJECT_ID: learn-gcp-cloud-everday
       RUN_REGION: us-central1
       SERVICE_NAME: images
     steps:
@@ -42,6 +42,6 @@ jobs:
         gcloud run deploy "$IMAGE_NAME" \
           --quiet \
           --region "$RUN_REGION" \
-          --image "gcr.io/ace-gcp-labs/docker-to-gcr:version" \
+          --image "gcr.io/learn-gcp-cloud-everday/docker-to-gcr:version" \
           --platform "managed" \
           --allow-unauthenticated
